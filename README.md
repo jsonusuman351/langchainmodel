@@ -177,7 +177,7 @@ langchainmodel/
 │
 ├── document_similarity.py    # Mini-project for semantic search
 ├── requirements.txt
-├── .env                      # (You need to create this for API keys)
+├── .env                      # ( create this for API keys)
 └── README.md
 ```
 </details>
