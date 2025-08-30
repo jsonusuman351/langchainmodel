@@ -20,19 +20,19 @@ Here are some screenshots showing the key scripts in action.
 
 **1. OpenAI Chat Model (`openaichatmodel.py`)**
 *Shows a simple conversation with the GPT model via API.*
-![Screenshot of OpenAI chat model output]
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ca2123b2-378f-4879-a912-33f7f58364dd" />
 
 **2. Hugging Face Chat Model (`huggingface_chatmodel_local.py`)**
 *Demonstrates running an open-source model locally on your machine.*
-![Screenshot of Hugging Face local chat model output]
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6aba7f24-7cfe-4099-9535-30626199c511" />
 
 **3. Generating Embeddings (`embedding_openai_docs.py`)**
 *Displays the numerical vector representations (embeddings) of text documents.*
-![Screenshot of OpenAI embedding output]
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7237ecea-c989-49f2-a153-e4c06f5c8394" />
 
 **4. Semantic Search (`document_similarity.py`)**
 *Shows the script taking a query and finding the most relevant document using cosine similarity.*
-![Screenshot of document similarity output]
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/493731c8-ddf1-4963-9230-de433512784d" />
 
 ---
 
@@ -146,21 +146,15 @@ This script is a complete example of using embeddings for semantic search. It ta
     ```
     **Example Interaction:**
     ```
-    Enter your query: What is the capital of France?
-    
-    Query Embedding: [0.01, -0.02, ..., 0.03]
-    
-    Similarity Scores:
-    - Doc 1: 0.85
-    - Doc 2: 0.95
-    - Doc 3: 0.75
-    
-    Most Similar Document: Paris is the capital and most populous city of France.
+    (D:\Projects\langchainmodel\venv) D:\Projects\langchainmodel>python document_similarity.py
+    tell me about narendra modi
+    Narendra Modi is the Prime Minister of India known for his charismatic leadership and economic reforms.
+    similarity score is: 0.6063302711097277
     ```
 
 ---
 
-### 📂 Project Structure
+### 📂 Code Playground Structure
 
 <details>
 <summary>Click to view the folder structure</summary>
